@@ -34,7 +34,8 @@ for i=1:numberc
      MinLossData(i)=0;%记录最小丢失数据
      fcLossData(i)=0;%记录丢失数据方差
      TranDataRatio(i)=0;%记录传递数据比例
-
+     detectiontime(i)=0;%记录实际侦测次数
+     round(i)=0;%轮次
  end
 %第一种情况:放过k个后见优则录的规则进行传输
 it=1;%模拟的轮次
@@ -65,6 +66,7 @@ while(Duration(1)<TotalTime)
             rnd_g=sqrt(K/(K+1))+sqrt(1/(K+1))*raylrnd(fc);%随机生成符合Rician分布的增益值
         end  
         TransP=Min_receive_power/rnd_g;%传输功率
+        detectiontime(1)=detectiontime(1)+i; %返回实际侦测次数
         if(TransP<minP)
             TransR=BW*log2(1+TransP*rnd_g/N0W ); %生成传输速率
             break;
@@ -78,6 +80,7 @@ while(Duration(1)<TotalTime)
          end   
          TransP=P;%传输功率  
          TransR=BW*log2(1+rnd_g*P/N0W ); %生成传输速率 
+         detectiontime(1)=detectiontime(1)+i; %返回实际侦测次数
     end
     if(RemainEn(1)<(i*Ep+TransP*T))%剩余能量不够,则结束
         break;
@@ -104,9 +107,9 @@ while(Duration(1)<TotalTime)
         TransData(1)=TransData(1)+producedata;
         formLossData=0;%这一轮没有不传输的数据
     end      
-     Duration(1)=Duration(1)+(i*t+T);%等待时间加传输时间就是本轮持续时间
+    Duration(1)=Duration(1)+(i*t+T);%等待时间加传输时间就是本轮持续时间
     RemainEn(1)=RemainEn(1)-M*((i*Ep+TransP*T));%本轮能耗是侦测能耗加传输能耗
-    
+    round(1)=it*Z;%返回总侦测次数
     it=it+1;
 end
 AveTransData(1)=TransData(1)/Duration(1);%平均数据传输
@@ -146,12 +149,11 @@ while(Duration(2)<TotalTime)
         rnd_g=sqrt(K/(K+1))+sqrt(1/(K+1))*raylrnd(fc);%随机生成符合Rician分布的增益值
     end    
     TransR=BW*log2(1+rnd_g*P/N0W ); %随机生成传输速率    
-    
+    detectiontime(2)=detectiontime(2)+1; %返回实际侦测次数
     producedata=c*(Z*t+T);%产生的数据
     transdata=TransR*T;%能传输的数据
     if (producedata>transdata)%这段时间内产生的数据更多
        TransData(2)=TransData(2)+transdata;
-       
        itLossData=itLossData+1;
        LossData(itLossData)=producedata-transdata;%丢失的数量
        sumLossData=sumLossData+LossData(itLossData);% 累加丢失数据
@@ -160,7 +162,7 @@ while(Duration(2)<TotalTime)
     end        
     Duration(2)=Duration(2)+Dm+T;%最大延迟时间加传输时间就是本轮持续时间
     RemainEn(2)=RemainEn(2)-M*((P*T));%本轮的能耗是传输能耗   
-        
+    round(2)=it*Z;%返回总侦测次数    
     it=it+1;
 end
 AveTransData(2)=TransData(2)/Duration(2);%平均数据传输
@@ -201,14 +203,7 @@ while(Duration(3)<TotalTime)
     end   
     TransP=P;%传输功率
     TransR=BW*log2(1+rnd_g*TransP/N0W ); %生成传输速率
-    
-%     if(TransT==M)
-%          TransP=P;%传输功率
-%          TransR=BW*log2(1+rnd_g*TransP/N0W ); %生成传输速率
-%     else       
-%         TransP=Min_receive_power/rnd_g;%传输功率 
-%         TransR=BW*log2(1+Min_receive_power/N0W ); %生成传输速率        
-%     end
+    detectiontime(3)=detectiontime(3)+1; %返回实际侦测次数
     if(RemainEn(3)<TransP*T)%剩余能量不足,生命结束
         break;
     end
@@ -237,7 +232,7 @@ while(Duration(3)<TotalTime)
     end      
     Duration(3)=Duration(3)+(TransT)*t+T;%等待时间加传输时间就是本轮持续时间
     RemainEn(3)=RemainEn(3)-M*((TransP*T));%本轮的能耗是传输能耗 
-    
+    round(3)=it*Z;%返回总侦测次数
     it=it+1;
 end
 AveTransData(3)=TransData(3)/Duration(3);%平均数据传输
@@ -293,6 +288,7 @@ while (Duration(4)<TotalTime)
         TransP=Min_receive_power/rnd_g;%传输功率
         if(TransP<minP)%如果当前这个功率更小，则记录下来
             TransR=BW*log2(1+Min_receive_power/N0W ); %生成传输速率
+            detectiontime(4)=detectiontime(4)+i; %返回实际侦测次数
             break;
         end  
         i=i+1;
@@ -304,6 +300,7 @@ while (Duration(4)<TotalTime)
         end    
         TransP=P;%传输功率  
         TransR=BW*log2(1+rnd_g*P/N0W ); %生成传输速率 
+        detectiontime(4)=detectiontime(4)+i; %返回实际侦测次数
     end
     if(RemainEn(4)<(i*Ep+TransP*T))%剩余能量不够,则结束
         break;
@@ -333,7 +330,7 @@ while (Duration(4)<TotalTime)
    
     Duration(4)=Duration(4)+(i*t+T);%等待时间加传输时间就是本轮持续时间
     RemainEn(4)=RemainEn(4)-M*((i*Ep+TransP*T));%本轮能耗是侦测能耗加传输能耗
-    
+    round(4)=it*Z;%返回总侦测次数
     it=it+1;
 end
 AveTransData(4)=TransData(4)/Duration(4);%平均数据传输
@@ -361,17 +358,18 @@ end
 %第四种情况:观察37%的时间,记下最大值，如果后面某个速率超过这个最大值，则传输，结束
 
 %结束后，将所有值存储
-name=sprintf('%s%s%s','test_compare_diff_',str,'.txt');
+name=sprintf('%s%s%s%s','test_compare_diff_',str,'_Rician','.txt');
 fi=fopen(name,'a');
 fprintf(fi,'M\tDm:S\tt:S\tT:S\tc:bps\tEp:J(10^-6)\tP:w\tEninit\r\n');
 fprintf(fi,'%d\t%d\t%d\t%d\t%d\t%.3f\t%d\t%d\r\n',M,Dm,t,T,c,Ep/10^(-6),P,Eninit);
 i=1;
 while(i<=numberc)
    fprintf(fi,'Case %d\r\n',i);
-   fprintf(fi,'TransData:bit\tDuratiaon:S\tUseEn:J\tEnEf:J/bit\tMaxLossData:bit\tMinLossData\tAveLossData\tAveTransData\tfcLossData\tAveScheduler\tTurnLossData\tTranDataRatio\r\n'); 
+   fprintf(fi,'TransData:bit\tDuratiaon:S\tUseEn:J\tEnEf:J/bit\tDeEf\tMaxLossData:bit\tMinLossData\tAveLossData\tAveTransData\tfcLossData\tAveScheduler\tTurnLossData\tTranDataRatio\r\n'); 
    x=(Eninit-RemainEn(i))/TransData(i);
    y=Eninit-RemainEn(i);
-   fprintf(fi,'%.0f\t%.0f\t%.3f\t%.15f\t',TransData(i),Duration(i),y,x);
+   z=detectiontime(i)/round(i);
+   fprintf(fi,'%.0f\t%.0f\t%.3f\t%.15f\t%d\t',TransData(i),Duration(i),y,x,z);
    fprintf(fi,'%.0f\t%.0f\t%.0f\t%.0f\t%.2f\t%.2f\t',MaxLossData(i),MinLossData(i),AveLossData(i),AveTransData(i),fcLossData(i),AveSchedule(i));
    fprintf(fi,'%d\t%.5f',TurnLossData(i),TranDataRatio(i));
    fprintf(fi,'\r\n');
