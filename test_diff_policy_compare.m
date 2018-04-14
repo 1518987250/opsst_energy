@@ -1,6 +1,6 @@
 function [  ] = test_diff_policy_compare()
 
-M=10;%M
+M=20;%M
 Dm=10;%s
 t=0.9;%s
 T=1;%s

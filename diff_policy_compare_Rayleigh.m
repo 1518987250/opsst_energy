@@ -64,7 +64,7 @@ while(Duration(1)<TotalTime)
         TransP=Min_receive_power/rnd_g;%传输功率
         if(TransP<minP)
             TransR=BW*log2(1+TransP*rnd_g/N0W ); %生成传输速率
-%             detectiontime(1)=detectiontime(1)+i; %返回侦测次数
+            detectiontime(1)=detectiontime(1)+i; %返回侦测次数
             break;
         end
         i=i+1;   
@@ -76,7 +76,7 @@ while(Duration(1)<TotalTime)
         end   
         TransP=P;%传输功率  
         TransR=BW*log2(1+rnd_g*P/N0W ); %生成传输速率
-%         detectiontime(1)=detectiontime(1)+i; %返回侦测次数
+        detectiontime(1)=detectiontime(1)+i; %返回侦测次数
         if(RemainEn(1)<(i*Ep+TransP*T))%剩余能量不够,则结束
             break;
         end 
@@ -104,7 +104,7 @@ while(Duration(1)<TotalTime)
     end
     Duration(1)=Duration(1)+(i*t+T);%等待时间加传输时间就是本轮持续时间
     RemainEn(1)=RemainEn(1)-M*((i*Ep+TransP*T));%本轮能耗是侦测能耗加传输能耗
-%     round(1)=it;%返回轮次数
+    round(1)=it;%返回轮次数
     it=it+1;
 end
 AveTransData(1)=TransData(1)/Duration(1);%平均数据传输
@@ -144,7 +144,7 @@ while(Duration(2)<TotalTime)
         rnd_g=raylrnd(fc);%随机生成符合瑞利分布的增益值
     end    
     TransR=BW*log2(1+rnd_g*P/N0W ); %随机生成传输速率    
-%     detectiontime(2)=detectiontime(2)+1; %返回侦测次数
+    detectiontime(2)=detectiontime(2)+1; %返回侦测次数
     producedata=c*(Z*t+T);%产生的数据
     transdata=TransR*T;%能传输的数据
     if (producedata>transdata)%这段时间内产生的数据更多
@@ -157,7 +157,7 @@ while(Duration(2)<TotalTime)
     end        
     Duration(2)=Duration(2)+Dm+T;%最大延迟时间加传输时间就是本轮持续时间
     RemainEn(2)=RemainEn(2)-M*((P*T));%本轮的能耗是传输能耗   
-%     round(2)=it;%返回轮次数
+    round(2)=it;%返回轮次数
     it=it+1;
 end
 AveTransData(2)=TransData(2)/Duration(2);%平均数据传输
@@ -198,7 +198,7 @@ while(Duration(3)<TotalTime)
     end   
     TransP=P;%传输功率
     TransR=BW*log2(1+rnd_g*TransP/N0W ); %生成传输速率
-%     detectiontime(3)=detectiontime(3)+1; %返回侦测次数
+    detectiontime(3)=detectiontime(3)+1; %返回侦测次数
     if(RemainEn(3)<TransP*T)%剩余能量不足,生命结束
         break;
     end
@@ -227,7 +227,7 @@ while(Duration(3)<TotalTime)
     end      
     Duration(3)=Duration(3)+(TransT)*t+T;%等待时间加传输时间就是本轮持续时间
     RemainEn(3)=RemainEn(3)-M*((TransP*T));%本轮的能耗是传输能耗 
-%     round(3)=it;%返回轮次数
+    round(3)=it;%返回轮次数
     it=it+1;
 end
 AveTransData(3)=TransData(3)/Duration(3);%平均数据传输
@@ -283,7 +283,7 @@ while (Duration(4)<TotalTime)
         TransP=Min_receive_power/rnd_g;%传输功率
         if(TransP<minP)%如果当前这个功率更小，则记录下来
             TransR=BW*log2(1+Min_receive_power/N0W ); %生成传输速率
-%             detectiontime(4)=detectiontime(4)+i; %返回侦测次数
+            detectiontime(4)=detectiontime(4)+i; %返回侦测次数
             break;
         end  
         i=i+1;
@@ -295,7 +295,7 @@ while (Duration(4)<TotalTime)
         end    
         TransP=P;%传输功率  
         TransR=BW*log2(1+rnd_g*P/N0W ); %生成传输速率
-%         detectiontime(4)=detectiontime(4)+i; %返回侦测次数
+        detectiontime(4)=detectiontime(4)+i; %返回侦测次数
     end
     if(RemainEn(4)<(i*Ep+TransP*T))%剩余能量不够,则结束
         break;
@@ -325,7 +325,7 @@ while (Duration(4)<TotalTime)
    
     Duration(4)=Duration(4)+(i*t+T);%等待时间加传输时间就是本轮持续时间
     RemainEn(4)=RemainEn(4)-M*((i*Ep+TransP*T));%本轮能耗是侦测能耗加传输能耗
-%     round(4)=it;%返回轮次数
+    round(4)=it;%返回轮次数
     it=it+1;
 end
 AveTransData(4)=TransData(4)/Duration(4);%平均数据传输
