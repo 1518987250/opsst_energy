@@ -1,700 +1,850 @@
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	1	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	1	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-21572022273	259202	68211.007	0.000003162012627	189058	7	16774	83225	1948408866.02	0.90	65982	0.83225
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201748	259202	68211.007	0.000263157973857	1.949993e+00	52	52	0	1000	0.00	0.90	1	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-18603626426	259200	64800.000	0.000003483191853	189770	3	23227	71773	2063887360.07	1.00	81707	0.71773
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85228.752	0.000328812346186	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-19902146655	259202	68211.000	0.000003427318730	189560	9	23217	76782	2001622228.72	0.90	83594	0.76782
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+246231662	259200	64800.000	0.000263166806232	0	1476	29	0	950	302622.41	1.00	11	0.94997
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-19894354635	259202	68211.007	0.000003428661451	189518	0	23248	76752	2006880308.82	0.90	83942	0.76752
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259199069	259202	68211.000	0.000263160667249	1	1458	66	0	1000	235259.58	0.90	6	0.99999
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259192774	259202	68211.007	0.000263167085372	1	1360	359	0	1000	104897.36	0.90	12	0.99997
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	2	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	2	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-17235470926	259201	45480.066	0.000002638748077	279539	17	33504	66495	2970334389.00	1.25	108694	0.66495
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201377	259201	45532.246	0.000175663597342	1.072433e+00	23	23	0	1000	0.00	1.25	1	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-14119576787	259200	43200.000	0.000003059581789	279631	2	38860	54474	4312182430.04	2.00	77680	0.54474
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85761.249	0.000330866716658	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-17919783375	259201	55164.000	0.000003078385427	279254	4	30865	69135	4032183927.98	1.35	78534	0.69135
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+241903222	259200	43200.000	0.000178583813910	0	2509	48	0	933	538218.84	2.00	18	0.93327
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-17031267881	259200	45491.548	0.000002671060590	277638	1	34292	65707	2700344070.97	1.26	98919	0.65707
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259192553	259202	55163.500	0.000212828259656	1	1617	25	0	1000	321582.71	1.35	14	0.99996
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259199233	259202	45480.995	0.000175467319876	6.963781e-01	1743	479	0	1000	314980.20	1.25	3	0.99999
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	3	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	3	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-15395087395	259201	38373.093	0.000002492554424	369824	6	40604	59394	4442832595.85	1.39	108028	0.59394
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201419	259202	38401.316	0.000148152414403	7.153193e-01	593	188	0	1000	40814.93	1.39	2	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-10858241239	259200	32400.000	0.000002983908654	369803	82	50609	41891	6118553843.26	3.00	63920	0.41891
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85863.730	0.000331262091450	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-15466132951	259202	46235.000	0.000002989435054	369627	13	40331	59668	7168872149.52	1.80	74241	0.59668
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+239736571	259200	32400.000	0.000135148341612	0	3014	119	0	925	624774.30	3.00	15	0.92491
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-12090669211	259201	32637.061	0.000002699359375	368876	11	53353	46646	4820613980.85	2.32	75747	0.46646
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259194475	259202	46198.500	0.000178238753104	1	1556	436	0	1000	146030.38	1.81	7	0.99997
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259192323	259204	32654.947	0.000125987322142	8.586669e-01	2301	7	0	1000	475789.24	2.32	14	0.99996
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	4	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	4	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-10544809356	259200	26693.311	0.000002531417157	458901	89	59315	40682	7062643346.47	2.66	70885	0.40682
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259202500	259203	26733.335	0.000103136869845	9.193238e-01	0	0	0	1000	0.00	2.65	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-8713396789	259200	25920.000	0.000002974729675	459496	27	58384	33616	6783595456.52	4.00	51814	0.33616
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85345.827	0.000329264023240	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-13388046489	259201	39815.000	0.000002973921553	458461	8	48347	51651	11446940955.67	2.26	68378	0.51651
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+238427391	259200	25920.000	0.000108712341775	0	3008	52	0	920	987071.34	4.00	24	0.91986
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-10547684178	259201	26663.610	0.000002527911312	457733	21	59306	40693	8143671225.06	2.66	69718	0.40693
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259199506	259203	39759.500	0.000153393425105	1	1239	300	0	1000	108562.30	2.26	6	0.99999
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259190285	259202	26685.482	0.000102957106007	7.388769e-01	2844	179	0	1000	623591.46	2.66	9	0.99996
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	5	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	5	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-9689663159	259202	23522.516	0.000002427588611	549645	17489	62613	37383	11964886762.44	2.90	66525	0.37383
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201000	259201	23567.546	0.000090923824446	7.727641e-01	0	0	0	1000	0.00	2.89	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-7242091469	259200	21600.000	0.000002982563820	549311	64614	63726	27940	6788767080.92	5.00	43200	0.27940
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85337.844	0.000329233223811	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-11740422739	259203	34931.500	0.000002975318758	548064	15	54703	45294	16899399426.88	2.71	62293	0.45294
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+237518382	259200	21600.000	0.000090940329759	0	5194	201	0	916	1792630.91	5.00	36	0.91635
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-8275051910	259204	21339.476	0.000002578772441	548996	346	68073	31925	9840260226.06	3.78	54114	0.31925
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259193783	259203	34999.500	0.000135032174094	1	2082	85	0	1000	280880.44	2.70	13	0.99996
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259194114	259201	21379.598	0.000082484889232	8.397271e-01	3175	95	0	1000	1234932.63	3.78	7	0.99997
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	6	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	6	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-9110902802	259202	21533.581	0.000002363495893	638939	7489	64847	35150	18515489952.29	3.08	63553	0.35150
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259202200	259202	21551.713	0.000083146333509	6.686553e-01	0	0	0	1000	0.00	3.09	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-6211129696	259203	18514.500	0.000002980858701	638609	158084	67466	23962	6757126890.81	6.00	37029	0.23962
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85439.753	0.000329626387266	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-10487992135	259200	31298.000	0.000002984174625	638775	35	59536	40463	23684130033.99	3.14	56924	0.40463
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+236912224	259203	18514.500	0.000078149196602	0	5126	34	0	914	2150843.50	6.00	37	0.91400
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-7548423537	259203	18534.148	0.000002455366785	638262	159	70876	29122	16337382354.58	4.15	50273	0.29122
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259193275	259204	31203.500	0.000120386996714	1	3116	302	0	1000	1001677.08	3.15	6	0.99996
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259183762	259201	18557.343	0.000071599173712	7.688470e-01	4751	97	0	1000	2204674.48	4.15	11	0.99993
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	7	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	7	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-8727855846	259200	20283.571	0.000002324003885	728913	49986	66324	33672	26374246316.40	3.24	61199	0.33672
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259203600	259204	20181.985	0.000077861516073	5.897287e-01	0	0	0	1000	0.00	3.24	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5439728177	259200	16200.000	0.000002978089984	729132	247100	70263	20987	6825800811.86	7.00	32400	0.20987
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85495.850	0.000329842811494	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-9460593092	259205	28180.000	0.000002978671604	729495	14	63499	36499	31976454583.95	3.60	52046	0.36499
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+236386060	259200	16200.000	0.000068531959875	0	6457	159	1	912	3045617.26	7.00	48	0.91198
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-7028820290	259201	16699.070	0.000002375799847	729333	13	72880	27117	25331788670.85	4.45	47518	0.27117
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259187465	259200	28171.000	0.000108689669813	1	3018	960	0	1000	365372.17	3.60	6	0.99995
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259191156	259206	16726.548	0.000064533637137	7.058889e-01	3620	307	0	1000	1148993.57	4.45	11	0.99994
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	8	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	8	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-8412491765	259204	19214.926	0.000002284094464	816288	142496	67540	32455	35116140106.80	3.37	59290	0.32455
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259206200	259206	19279.618	0.000074379463044	5.275006e-01	0	0	0	1000	0.00	3.36	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4821319518	259200	14400.000	0.000002986734222	818177	334734	72510	18601	6783716826.67	8.00	28800	0.18601
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85706.358	0.000330654948194	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-8643860015	259205	25644.500	0.000002966787981	818861	8	66649	33348	41325879475.93	4.05	47951	0.33348
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+236040796	259200	14400.000	0.000061006403243	0	6985	26	0	911	4126828.11	8.00	46	0.91065
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5850819958	259206	14107.011	0.000002411116932	817372	11252	77425	22572	26132778049.18	5.65	38997	0.22572
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259180532	259205	25604.500	0.000098790213252	1	4051	159	0	1000	878400.64	4.06	12	0.99990
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259170864	259200	14095.725	0.000054387769587	7.871810e-01	5848	5	0	1000	2354067.99	5.67	16	0.99989
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	9	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	9	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-6120608214	259203	13577.997	0.000002218406490	998133	232496	76382	23613	57245806179.65	5.12	42355	0.23613
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259206520	259207	13538.544	0.000052230722278	6.303330e-01	180	180	0	1000	0.00	5.12	1	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4342611521	259200	12960.000	0.000002984379316	999584	518659	83246	16754	6815375541.74	9.00	25920	0.16754
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85190.631	0.000328665276754	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-7325024183	259203	21819.500	0.000002978761497	996520	22	71737	28260	64183689772.41	4.94	41383	0.28260
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258982945	259200	12960.000	0.000050041905294	0	8063	24	1	999	4779342.14	9.00	72	0.99916
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5231497162	259202	11974.401	0.000002288905254	997947	6953	79814	20183	51974981498.01	6.29	35541	0.20183
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259184382	259204	21816.500	0.000084173667538	1	6667	21	0	1000	2797867.74	4.94	13	0.99993
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259140790	259207	11956.757	0.000046140003720	7.022621e-01	9676	573	0	1000	5291048.08	6.32	19	0.99975
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	10	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	10	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5882437107	259202	12884.298	0.000002190299346	1089157	232496	77298	22694	72486139986.42	5.33	40944	0.22694
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259200200	259200	12910.862	0.000049810384493	5.886590e-01	0	0	0	1000	0.00	5.31	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3960681447	259204	11782.000	0.000002974740624	1089103	606384	83811	15280	6870576470.05	10.00	23564	0.15280
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85877.616	0.000331315661895	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-6766920862	259208	20221.500	0.000002988286757	1088229	22	73890	26106	77183068715.23	5.41	38490	0.26106
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+256622821	259204	11782.000	0.000045911739111	0	10185	114	1	990	6112925.83	10.00	61	0.99004
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4536706022	259203	10489.750	0.000002312195147	1084962	84428	82494	17503	52136162702.35	7.56	30290	0.17503
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259141759	259203	20254.500	0.000078159923241	1	6704	242	0	1000	3463901.81	5.40	25	0.99976
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259110548	259202	10529.582	0.000040637410501	7.638832e-01	10118	318	0	1000	7810514.23	7.56	23	0.99965
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	11	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	11	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5714635807	259207	12412.444	0.000002172044706	1179068	225754	77946	22047	89159007502.59	5.49	39939	0.22047
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201200	259201	12403.419	0.000047852474670	5.517015e-01	0	0	0	1000	0.00	5.47	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3613472557	259200	10800.000	0.000002988814729	1178656	697428	84392	13941	6859874173.38	11.00	21600	0.13941
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85497.447	0.000329848970432	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-6324462839	259201	18885.000	0.000002986024344	1179060	0	75596	24400	92854322829.57	5.86	36143	0.24400
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+254568318	259200	10800.000	0.000042424760852	0	11144	75	1	982	8365714.77	11.00	80	0.98213
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4327682983	259204	9810.690	0.000002266961282	1177917	118902	83300	16696	69464240474.23	7.89	29150	0.16696
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259172053	259204	18882.000	0.000072855077444	1	5431	18	0	1000	1905973.20	5.86	17	0.99988
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259149330	259201	9801.901	0.000037823370293	7.300622e-01	5470	360	0	1000	2465388.82	7.88	17	0.99980
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	12	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	12	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5577667596	259213	11890.506	0.000002131806133	1267195	16229	78473	21518	104249636035.34	5.63	39075	0.21518
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259205800	259206	11922.026	0.000045994442981	5.213417e-01	0	0	0	1000	0.00	5.64	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3342772721	259207	9969.500	0.000002982404379	1269504	796612	84796	12896	6829672583.73	12.00	19939	0.12896
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85037.620	0.000328074957474	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5944350401	259208	17759.000	0.000002987542591	1267771	31	77063	22933	109231239262.60	6.30	34172	0.22933
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+252882806	259207	9969.500	0.000039423400017	0	11560	106	1	976	9787601.02	12.00	79	0.97560
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4178796853	259212	9229.620	0.000002208678778	1268164	91948	83875	16121	87958387753.72	8.17	28279	0.16121
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259149001	259202	17783.000	0.000068620754501	1	5352	95	0	1000	1881659.97	6.29	24	0.99979
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259096996	259207	9218.142	0.000035577958545	6.995086e-01	9625	905	0	1000	6497348.53	8.18	28	0.99958
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	13	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	13	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5441640473	259203	11556.243	0.000002123668904	1358118	232496	79000	20994	122756035828.99	5.77	38284	0.20994
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259204500	259205	11566.991	0.000044624961378	4.924963e-01	0	0	0	1000	0.00	5.77	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3087528431	259210	9257.500	0.000002998352956	1359759	875850	85232	11911	6864497608.37	13.00	18515	0.11911
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85682.653	0.000330563494045	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5576439665	259204	16703.500	0.000002995369986	1354719	7	78482	21514	126287424268.04	6.76	32251	0.21514
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+251476088	259210	9257.500	0.000036812645150	0	11949	69	1	970	9095850.77	13.00	77	0.97016
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3697249397	259206	8318.359	0.000002249877798	1357827	187348	85731	14264	88030678054.63	9.46	24774	0.14264
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259137799	259203	16706.500	0.000064469560408	1	11178	215	0	1000	9035788.83	6.76	18	0.99975
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259130235	259205	8303.763	0.000032044747852	7.480751e-01	10782	660	0	1000	7140348.77	9.43	18	0.99971
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	14	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	14	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5340040352	259201	11221.942	0.000002101471310	1448150	232496	79391	20602	141115130201.92	5.89	37628	0.20602
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259202200	259202	11160.823	0.000043058365439	4.686792e-01	0	0	0	1000	0.00	5.91	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2882588031	259200	8640.000	0.000002997306554	1448022	964593	85546	11121	6829201829.42	14.00	17280	0.11121
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	86036.836	0.000331929933255	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5308946294	259205	15822.000	0.000002980252413	1444975	42	79513	20482	145919943072.81	7.19	30556	0.20482
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+250182901	259200	8640.000	0.000034534734289	0	11857	88	1	965	12304734.37	14.00	78	0.96521
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3566558985	259205	7864.253	0.000002204997348	1449371	190168	86235	13760	110098086641.04	9.78	24037	0.13760
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259153197	259202	15737.000	0.000060724699475	1	11278	787	0	1000	7813873.25	7.24	15	0.99981
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259099906	259209	7876.444	0.000030399254298	7.214778e-01	9199	265	0	1000	6048169.78	9.74	25	0.99958
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	15	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	15	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4305662573	259205	8923.970	0.000002072612450	1539261	315364	83378	16611	162709020425.98	7.65	29947	0.16611
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201900	259202	8972.703	0.000034616656611	5.641621e-01	0	0	0	1000	0.00	7.64	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2744298386	259200	8100.000	0.000002951574086	1537623	1055989	85662	10588	6855201119.04	15.00	16200	0.10588
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	84815.932	0.000327219688994	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-5026121997	259201	15005.000	0.000002985403062	1537441	74	80604	19391	164306820654.03	7.64	29071	0.19391
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+248995540	259200	8100.000	0.000032530703213	0	13713	11	2	961	15125018.77	15.00	94	0.96063
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3223439963	259213	7234.078	0.000002244210483	1537966	254428	87559	12435	109084296501.60	11.01	21577	0.12435
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259133461	259207	14899.500	0.000057497399081	1	11281	79	0	1000	6112751.15	7.70	25	0.99972
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259095743	259200	7219.804	0.000027865390521	7.644690e-01	13436	52	0	1000	13171509.83	11.01	22	0.99960
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	16	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	16	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4219492320	259205	8667.367	0.000002054125516	1628580	322496	83714	16279	185288187362.81	7.79	29471	0.16279
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259203000	259203	8675.007	0.000033468003977	5.410765e-01	0	0	0	1000	0.00	7.81	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2560565163	259216	7624.000	0.000002977467674	1627743	1147701	86004	9878	6814531815.12	16.00	15248	0.09878
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	84981.294	0.000327857654561	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4795970936	259201	14258.500	0.000002973016349	1627034	162	81491	18503	186474157701.50	8.09	27640	0.18503
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+248019360	259216	7624.000	0.000030739535868	0	15414	7	2	957	17191997.74	16.00	94	0.95681
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3126216550	259202	6902.039	0.000002207792906	1625984	286885	87933	12061	134365920193.75	11.35	20983	0.12061
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259168449	259208	14273.000	0.000055072290082	1	10220	269	0	1000	6656816.81	8.08	15	0.99985
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259107391	259215	6882.092	0.000026560769664	7.386902e-01	13230	248	0	1000	9277643.31	11.30	23	0.99959
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	17	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	17	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4154687696	259208	8457.586	0.000002035673072	1716160	322496	83960	16028	209932805375.76	7.94	29005	0.16028
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259202100	259202	8434.371	0.000032539747068	5.166690e-01	0	0	0	1000	0.00	7.92	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2408481340	259200	7200.000	0.000002989435659	1717268	1240622	86264	9292	6729085647.24	17.00	14400	0.09292
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85154.658	0.000328526492460	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4533202683	259207	13499.500	0.000002977916706	1715712	57	82505	17489	212938404183.99	8.60	26220	0.17489
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+247030951	259200	7200.000	0.000029146145315	0	15895	73	3	953	15529128.31	17.00	112	0.95305
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3052916761	259215	6580.465	0.000002155468086	1714900	242496	88216	11778	160835501988.59	11.64	20500	0.11778
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259126801	259201	13539.500	0.000052250481003	1	8421	253	0	1000	5561171.18	8.57	19	0.99971
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259094268	259201	6580.775	0.000025399151317	7.192961e-01	12860	116	0	1000	11444791.03	11.65	24	0.99959
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	18	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	18	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3993419798	259206	7987.528	0.000002000172278	1896155	322496	84585	15406	261772378189.72	8.25	28019	0.15406
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259204800	259205	8009.482	0.000030900206890	4.816823e-01	0	0	0	1000	0.00	8.23	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2293082498	259217	6821.500	0.000002974816652	1898796	1416344	91154	8846	6774140455.34	18.00	13643	0.08846
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	84848.268	0.000327344438581	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4168810124	259212	12382.000	0.000002970152065	1890425	79	83910	16083	261939367162.60	9.47	24170	0.16083
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258439942	259217	6821.500	0.000026394913790	0	17141	117	3	997	19162273.40	18.00	115	0.99700
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2701918649	259205	5861.705	0.000002169460225	1891216	392715	89569	10424	189969347468.59	13.24	18196	0.10424
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259074821	259208	12370.500	0.000047748754327	1	11895	345	1	999	9740267.11	9.48	30	0.99949
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259066887	259216	5852.913	0.000022592284023	7.357005e-01	12903	674	1	999	9650444.13	13.24	33	0.99943
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	19	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	19	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3917148361	259206	7830.679	0.000001999076490	1988301	322496	84879	15112	288813630654.74	8.36	27694	0.15112
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259205900	259206	7862.163	0.000030331730269	4.633444e-01	0	0	0	1000	0.00	8.34	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2175856763	259200	6480.000	0.000002978137215	1989083	1515491	91105	8395	6836061833.61	19.00	12960	0.08395
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85216.753	0.000328766053518	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-4020664204	259214	11977.000	0.000002978861052	1985595	21	84482	15511	285933909747.91	9.82	23357	0.15511
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+257050996	259200	6480.000	0.000025209005655	0	16928	63	3	992	18499649.18	19.00	133	0.99171
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2640174924	259213	5623.189	0.000002129854598	1987778	222496	89807	10185	220803163087.56	13.53	17836	0.10185
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259105996	259213	11960.500	0.000046160645472	1	14205	802	0	1000	8328114.07	9.84	23	0.99959
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258872336	259201	5620.301	0.000021710703637	7.155719e-01	16585	75	1	999	21702730.76	13.52	56	0.99873
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	20	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	20	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3873638249	259202	7679.607	0.000001982530799	2077647	322496	85046	14944	319086284473.74	8.51	27246	0.14944
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259205000	259205	7694.013	0.000029683117984	4.469156e-01	0	0	0	1000	0.00	8.44	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2091518935	259203	6171.500	0.000002950726334	2077551	1594697	90979	8069	6901885893.00	20.00	12343	0.08069
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85313.290	0.000329138491770	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3837170086	259201	11432.000	0.000002979278933	2074155	20	85189	14804	314666916440.90	10.34	22349	0.14804
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+255749503	259203	6171.500	0.000024131034207	0	20196	5	4	987	22614626.05	20.00	145	0.98668
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2450228538	259220	5297.694	0.000002162122262	2076394	484341	90540	9452	220309548758.98	14.80	16402	0.09452
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259093620	259204	11454.500	0.000044209888292	1	15170	128	0	1000	13007000.82	10.31	27	0.99957
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258896517	259201	5278.678	0.000020389141279	7.457836e-01	16063	679	1	999	15598043.28	14.77	50	0.99882
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	21	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	21	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3810792860	259201	7534.364	0.000001977112006	2167002	127489	85288	14702	348007055803.22	8.63	26914	0.14702
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259203000	259203	7524.580	0.000029029680215	4.355121e-01	0	0	0	1000	0.00	8.62	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1958593856	259204	5891.000	0.000003007770080	2168173	1684855	91080	7556	6613448367.35	21.00	11782	0.07556
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	86339.989	0.000333099494788	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3704070262	259212	11003.500	0.000002970650992	2168133	891	85702	14290	344254031149.64	10.78	21522	0.14290
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+254550614	259204	5891.000	0.000023142745227	0	18985	101	4	982	22788920.50	21.00	149	0.98205
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2395726631	259203	5089.911	0.000002124579012	2165756	442184	90749	9243	254809127572.52	15.07	16129	0.09243
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259085945	259202	10967.000	0.000042329582913	1	13373	503	0	1000	11329777.16	10.82	23	0.99955
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258963056	259205	5104.107	0.000019709790110	7.306620e-01	21182	6	1	999	28249720.57	15.12	39	0.99907
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	22	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	22	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3769892727	259204	7400.303	0.000001963000895	2257874	322496	85445	14544	372948544835.67	8.71	26692	0.14544
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259206600	259207	7359.561	0.000028392643420	4.242833e-01	0	0	0	1000	0.00	8.78	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1914384428	259210	5635.000	0.000002943504929	2257191	1776651	90875	7385	6875328233.98	22.00	11270	0.07385
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	84900.204	0.000327544807120	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3534394890	259209	10527.000	0.000002978444777	2252622	358	86357	13635	380211369010.53	11.31	20624	0.13635
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+253773840	259210	5635.000	0.000022204810422	0	20416	306	4	979	27839541.62	22.00	131	0.97903
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2236950308	259217	4813.735	0.000002151918535	2258185	581818	91363	8630	250544944253.72	16.30	14986	0.08630
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259078164	259212	10628.500	0.000041024298774	1	16286	171	1	999	13988319.20	11.19	28	0.99949
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258895176	259201	4812.540	0.000018588759056	7.572430e-01	20540	83	1	999	24241261.00	16.36	48	0.99882
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	23	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	23	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3193986003	259206	6179.560	0.000001934748567	2347984	412496	87667	12322	416111581686.49	10.58	22387	0.12322
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259204700	259205	6177.885	0.000023834002086	4.929509e-01	0	0	0	1000	0.00	10.65	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1822355353	259200	5400.000	0.000002963198144	2349403	1874142	90886	7031	6772200752.41	23.00	10800	0.07031
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85863.608	0.000331261618125	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3405541923	259204	10123.000	0.000002972507820	2340779	133	86853	13138	406680052721.36	11.80	19832	0.13138
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+252778398	259200	5400.000	0.000021362584944	0	21701	19	4	975	36470816.02	23.00	131	0.97523
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2187823709	259222	4635.473	0.000002118759890	2346578	553817	91551	8440	288607932438.84	16.66	14680	0.08440
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259088818	259200	10256.500	0.000039586810779	1	17705	165	0	1000	12890396.31	11.64	25	0.99957
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258904355	259201	4653.563	0.000017974061237	7.389120e-01	16846	90	1	999	21427002.58	16.63	45	0.99886
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	24	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	24	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3140962300	259207	6069.269	0.000001932296006	2437190	412496	87871	12118	456515382071.14	10.73	22103	0.12118
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259205400	259205	6090.291	0.000023496005471	4.760211e-01	0	0	0	1000	0.00	10.72	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1738965398	259200	5184.000	0.000002981082893	2436915	1963297	90891	6709	6836918499.89	24.00	10368	0.06709
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85626.410	0.000330346511788	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3288294687	259216	9859.000	0.000002998210604	2436368	484	87305	12686	440499435396.28	12.15	19345	0.12686
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+251599044	259200	5184.000	0.000020604211845	0	21586	49	5	971	32207127.21	24.00	158	0.97068
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2146736895	259202	4503.854	0.000002098000078	2437278	262496	91709	8282	328471659010.23	17.00	14397	0.08282
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259106500	259210	9877.000	0.000038119460488	1	11148	44	0	1000	7028616.77	12.12	28	0.99960
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259038862	259210	4504.619	0.000017389742521	7.251384e-01	17912	165	1	999	28798221.41	16.97	24	0.99934
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	25	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	25	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3110941292	259203	5978.855	0.000001921879581	2528660	372482	87986	12002	483595787040.69	10.79	21986	0.12002
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259205200	259205	5931.021	0.000022881565355	4.668638e-01	0	0	0	1000	0.00	10.93	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1675496463	259220	4985.000	0.000002975237554	2526442	2064263	90844	6464	6735786119.77	25.00	9970	0.06464
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85793.118	0.000330989667384	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3191030513	259203	9488.000	0.000002973334150	2524403	36	87680	12311	481902314622.03	12.66	18594	0.12311
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+250774591	259220	4985.000	0.000019878409454	0	23602	233	6	967	33837098.02	25.00	171	0.96742
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2021288136	259208	4291.109	0.000002122957803	2525413	672738	92193	7798	329121576803.56	18.19	13505	0.07798
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259111761	259223	9518.500	0.000036735113702	1	14218	186	0	1000	13127111.59	12.62	21	0.99957
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258875056	259201	4302.350	0.000016619409234	7.549911e-01	15873	68	1	999	21909057.38	18.35	54	0.99874
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	26	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	26	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3080119120	259222	5888.513	0.000001911780915	2616667	412496	88100	11882	522734814040.46	10.96	21673	0.11882
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259210600	259211	5817.593	0.000022443498624	4.536795e-01	0	0	0	1000	0.00	11.03	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1603560085	259200	4800.000	0.000002993339660	2617015	2153567	90850	6187	6923345678.55	26.00	9600	0.06187
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85986.836	0.000331737033660	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3088902370	259225	9215.500	0.000002983422231	2612251	323	88074	11916	518295916695.76	13.06	18091	0.11916
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+250192804	259200	4800.000	0.000019185204044	0	26173	102	5	965	37525027.95	26.00	155	0.96525
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1965879681	259202	4167.611	0.000002119972710	2618070	615743	92406	7584	369717150534.58	18.56	13252	0.07584
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259027644	259208	9230.500	0.000035635192612	1	19788	260	1	999	23624250.81	13.04	32	0.99930
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258796272	259200	4152.741	0.000016046370390	7.350197e-01	21745	223	2	998	35359465.44	18.52	49	0.99844
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	27	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	27	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-3026141522	259206	5685.517	0.000001878800652	2794255	412496	88313	11675	586998128312.96	11.16	21318	0.11675
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259207800	259208	5690.101	0.000021951889813	4.303413e-01	0	0	0	1000	0.00	11.23	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1543266330	259224	4629.000	0.000002999482274	2796327	2327817	94047	5953	6819130114.26	27.00	9258	0.05953
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85233.817	0.000328831887045	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2911462865	259204	8716.500	0.000002993855805	2795204	1	88758	11232	587781061033.73	13.87	17162	0.11232
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+257920664	259224	4629.000	0.000017947379351	0	24253	44	5	995	44451433.41	27.00	149	0.99497
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1826442730	259208	3863.632	0.000002115386116	2797866	724605	92944	7046	410622699312.31	20.17	12242	0.07046
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259006479	259210	8634.500	0.000033337003879	1	16342	67	1	999	21533067.01	14.01	30	0.99922
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258743608	259224	3852.560	0.000014889490190	7.456873e-01	27063	307	2	998	32223111.67	20.13	60	0.99815
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	28	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	28	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2963367399	259207	5575.575	0.000001881499689	2887773	412496	88548	11432	636590629595.59	11.36	20969	0.11432
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259205900	259206	5537.722	0.000021364182603	4.245911e-01	0	0	0	1000	0.00	11.46	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1497769030	259202	4469.000	0.000002983771136	2886850	2426778	93877	5778	6790822966.66	28.00	8938	0.05778
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85624.121	0.000330337677212	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2806798926	259203	8397.000	0.000002991664249	2887771	131	89161	10829	630093541699.30	14.43	16507	0.10829
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+256629550	259202	4469.000	0.000017414206569	0	26114	2	6	990	52345078.38	28.00	161	0.99008
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1789498258	259212	3743.817	0.000002092104547	2885590	730900	93086	6904	457653108719.03	20.42	12100	0.06904
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259038451	259215	8412.500	0.000032475873616	1	13873	333	1	999	18076857.00	14.41	34	0.99932
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258846985	259205	3755.439	0.000014508335846	7.344493e-01	23110	240	1	999	29115737.24	20.49	51	0.99862
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	29	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	29	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2925303809	259206	5496.002	0.000001878780051	2973572	137489	88700	11286	683742196102.41	11.53	20690	0.11286
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259213900	259214	5507.561	0.000021247165922	4.124575e-01	0	0	0	1000	0.00	11.50	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1459881235	259200	4320.000	0.000002959144825	2977866	2508439	93701	5632	6928853037.86	29.00	8640	0.05632
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85631.363	0.000330365620091	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2766391646	259201	8201.000	0.000002964511555	2972914	395	89317	10673	673970012750.57	14.80	16129	0.10673
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+255494579	259200	4320.000	0.000016908382248	0	29304	11	8	986	57581373.08	29.00	187	0.98570
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1758888590	259223	3636.669	0.000002067594975	2975824	750724	93204	6785	504668947323.73	20.79	11898	0.06785
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258969293	259212	8225.500	0.000031762453049	1	15980	127	1	999	15235256.83	14.76	40	0.99907
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258756188	259224	3636.595	0.000014054137336	7.188023e-01	21486	165	2	998	36404981.63	20.70	45	0.99819
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	30	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	30	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2914116115	259205	5432.518	0.000001864207819	3066575	412496	88739	11243	708274760763.82	11.56	20643	0.11243
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259206100	259206	5430.996	0.000020952422938	4.026971e-01	0	0	0	1000	0.00	11.59	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1397552170	259222	4181.000	0.000002991659338	3068307	2587491	93641	5391	6785667851.43	30.00	8362	0.05391
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85485.683	0.000329803586556	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2689260994	259208	7955.500	0.000002958247644	3055850	478	89614	10375	706348379333.38	15.29	15646	0.10375
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+254895312	259222	4181.000	0.000016402812453	0	26354	2	7	983	51387493.92	30.00	185	0.98331
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1679396589	259207	3516.233	0.000002093747663	3068794	825797	93510	6479	506197449278.77	22.00	11267	0.06479
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259005086	259206	7957.000	0.000030721404498	1	17281	58	1	999	23338321.69	15.29	35	0.99922
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258732349	259215	3501.506	0.000013533312572	7.410994e-01	26715	32	2	998	44899072.33	22.01	59	0.99814
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	31	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	31	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2875501311	259207	5337.662	0.000001856254424	3153412	274979	88892	11093	761579677871.97	11.73	20353	0.11093
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259206800	259207	5353.792	0.000020654521344	3.938788e-01	0	0	0	1000	0.00	11.70	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1365285451	259200	4050.000	0.000002966412627	3157393	2676664	93483	5267	6693533615.08	31.00	8100	0.05267
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85326.860	0.000329190848344	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2588600129	259218	7715.500	0.000002980568499	3149795	169	90002	9986	759648692754.98	15.80	15175	0.09986
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+254259866	259200	4050.000	0.000015928585413	0	30493	27	7	981	53640728.21	31.00	170	0.98094
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1655562507	259227	3407.306	0.000002058095910	3156863	823429	93602	6387	553549136797.85	22.32	11116	0.06387
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259016087	259218	7715.500	0.000029787725089	1	17745	175	1	999	20245599.36	15.80	38	0.99922
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258708439	259207	3405.002	0.000013161542226	7.290156e-01	26104	573	2	998	45419969.52	22.31	56	0.99808
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	32	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	32	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2828899395	259203	5236.843	0.000001851194668	3243055	339986	89072	10914	817125071331.99	11.97	19982	0.10914
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259206900	259207	5299.416	0.000020444734043	3.855732e-01	0	0	0	1000	0.00	11.80	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1323144446	259215	3927.500	0.000002968307815	3248738	2784169	93380	5104	6827510416.74	32.00	7855	0.05104
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85831.902	0.000331139296053	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2532254635	259214	7491.000	0.000002958233306	3229857	548	90219	9769	798885072445.18	16.30	14758	0.09769
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+253137110	259215	3927.500	0.000015515307123	0	30282	179	8	977	67905053.92	32.00	187	0.97655
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1573002092	259202	3290.866	0.000002092092554	3243875	947771	93919	6069	554771023807.52	23.59	10539	0.06069
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258982091	259221	7489.500	0.000028918988099	1	22833	3	1	999	27253224.46	16.31	36	0.99908
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258664201	259209	3283.314	0.000012693345986	7.469859e-01	28195	82	2	998	42329991.95	23.53	67	0.99790
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	33	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	33	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2491872279	259233	4568.725	0.000001833450720	3338378	502496	90362	9612	880485316916.00	13.76	17560	0.09612
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259208300	259208	4575.410	0.000017651478129	4.394161e-01	0	0	0	1000	0.00	13.84	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1290171567	259216	3812.000	0.000002954645800	3336878	2863558	93258	4977	6821679441.39	33.00	7624	0.04977
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85503.128	0.000329870889223	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2459888065	259201	7351.500	0.000002988550620	3331312	27	90498	9490	849278244301.56	16.63	14504	0.09490
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+252448400	259216	3812.000	0.000015100115481	0	33214	39	8	974	59195677.86	33.00	202	0.97389
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1545171783	259217	3208.157	0.000002076246485	3330231	966933	94027	5961	608968821066.72	23.82	10442	0.05961
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258931053	259218	7315.000	0.000028250763726	1	27709	10	1	999	53733307.48	16.72	34	0.99889
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258658384	259231	3228.393	0.000012481299215	7.410570e-01	29233	342	2	998	51718975.67	24.01	57	0.99779
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	34	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	34	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2461158327	259200	4502.044	0.000001829238055	3426400	502496	90489	9495	933832461292.40	13.94	17345	0.09495
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259204400	259204	4495.997	0.000017345372545	4.334868e-01	0	0	0	1000	0.00	14.05	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1243630189	259210	3703.000	0.000002977573263	3429330	2949654	93202	4798	7004402403.28	34.00	7406	0.04798
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85891.226	0.000331368170259	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2403378219	259203	7135.500	0.000002968945938	3416994	153	90715	9272	911378844147.39	17.16	14067	0.09272
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+251782338	259210	3703.000	0.000014707147543	0	33899	90	9	971	66349645.83	34.00	212	0.97135
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1528038090	259230	3123.818	0.000002044332310	3423583	880944	94093	5895	663885255354.51	24.13	10315	0.05895
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258877094	259217	7112.500	0.000027474427696	1	23226	734	1	999	33734604.43	17.22	43	0.99869
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258660346	259209	3133.047	0.000012112591000	7.241651e-01	28306	510	2	998	61147318.77	24.11	57	0.99788
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	35	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	35	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2421849193	259209	4443.779	0.000001834870243	3517108	502496	90630	9343	989144308406.57	14.13	17127	0.09343
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259217800	259218	4435.890	0.000017112597476	4.227582e-01	0	0	0	1000	0.00	14.08	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1202635039	259200	3600.000	0.000002993426837	3518580	3045098	93138	4640	6996691382.12	35.00	7200	0.04640
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85061.359	0.000328166543448	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2351206793	259210	7027.500	0.000002988890650	3510815	219	90916	9071	953185782489.35	17.44	13859	0.09071
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+250776975	259200	3600.000	0.000014355384871	0	34908	155	10	968	77480077.01	35.00	216	0.96750
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1453327472	259201	3024.459	0.000002081057832	3518815	1033996	94380	5607	659348942748.20	25.53	9769	0.05607
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258975074	259211	6980.500	0.000026954331567	1	20103	346	1	999	27437343.82	17.57	36	0.99909
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258350513	259210	3023.576	0.000011703385095	7.458114e-01	32848	80	3	997	77076531.37	25.51	72	0.99669
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	36	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	36	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2382549191	259201	4336.158	0.000001819965978	3699113	209986	90791	9192	1089624811970.51	14.36	16874	0.09192
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259211100	259211	4371.779	0.000016865709936	4.057412e-01	0	0	0	1000	0.00	14.24	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1176709310	259222	3503.000	0.000002976945938	3697776	3216471	95461	4539	6971803701.31	36.00	7006	0.04539
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85862.083	0.000331255736959	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2242503628	259216	6653.000	0.000002966773350	3690169	21	91335	8651	1057551251292.96	18.48	13136	0.08651
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+256497259	259222	3503.000	0.000013657066029	0	35765	6	11	989	84423902.45	36.00	211	0.98949
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1407604602	259203	2894.904	0.000002056617540	3691549	1045031	94556	5431	780299767680.47	26.33	9483	0.05431
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258881306	259206	6670.000	0.000025764703165	1	23558	66	1	999	45598345.62	18.43	37	0.99875
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258445150	259220	2887.046	0.000011170825699	7.282654e-01	34493	32	3	997	62881559.13	26.22	72	0.99701
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	37	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	37	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2378596322	259213	4302.562	0.000001808866161	3785890	199986	90796	9176	1122915193030.39	14.39	16836	0.09176
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259216000	259216	4287.640	0.000016540801334	4.000075e-01	0	0	0	1000	0.00	14.40	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1150191499	259236	3411.000	0.000002965593124	3788704	3305894	95300	4437	6868834824.58	37.00	6822	0.04437
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	86222.643	0.000332646774376	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2190595106	259224	6521.000	0.000002976816657	3776252	262	91535	8451	1120188603173.52	18.88	12869	0.08451
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+255648127	259236	3411.000	0.000013342558126	0	37569	210	11	986	88281256.09	37.00	220	0.98616
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1369329178	259212	2804.671	0.000002048208058	3782673	1105691	94704	5283	777054731176.95	27.36	9138	0.05283
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258970275	259220	6530.000	0.000025215249110	1	23848	7	1	999	33343348.93	18.85	30	0.99904
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258237103	259207	2797.016	0.000010831192657	7.465322e-01	35485	402	4	996	67712299.66	27.55	83	0.99626
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	38	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	38	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2353003432	259211	4231.927	0.000001798521422	3873553	459986	90902	9078	1173199482936.29	14.55	16669	0.09078
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259228700	259229	4248.365	0.000016388484335	3.947338e-01	0	0	0	1000	0.00	14.56	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1114184185	259233	3323.500	0.000002982899994	3878089	3402044	95189	4298	6785080901.25	38.00	6647	0.04298
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	84597.984	0.000326378843583	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2127345457	259209	6363.000	0.000002991051584	3874835	909	91778	8207	1155738850659.85	19.37	12583	0.08207
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+254637132	259233	3323.500	0.000013051906364	0	37091	60	13	982	91435095.52	38.00	238	0.98227
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1346022692	259232	2748.952	0.000002042277248	3871777	1106387	94793	5192	846621104186.78	27.69	9036	0.05192
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258876180	259219	6375.500	0.000024627603777	1	24622	693	1	999	47778698.25	19.33	43	0.99868
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258340670	259207	2750.488	0.000010646746129	7.370825e-01	34688	489	3	997	59724220.00	27.86	83	0.99666
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	39	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	39	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2363945888	259223	4228.834	0.000001788887619	3965090	4192	90851	9119	1210587189140.23	14.48	16749	0.09119
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259205300	259205	4232.414	0.000016328424347	3.824171e-01	0	0	0	1000	0.00	14.45	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1088053129	259200	3240.000	0.000002977795765	3968506	3491792	95052	4198	6795819942.77	39.00	6480	0.04198
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85958.877	0.000331629165131	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2092814206	259226	6198.500	0.000002961801379	3954582	95	91912	8073	1223082384585.17	19.91	12261	0.08073
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+254063462	259200	3240.000	0.000012752719223	0	38538	15	12	980	81885889.37	39.00	242	0.98018
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1287049244	259208	2669.222	0.000002073907980	3962788	1156974	95020	4965	835151464956.50	28.96	8651	0.04965
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258927491	259223	6222.500	0.000024031824391	1	21791	83	1	999	38861003.74	19.83	47	0.99886
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258328058	259209	2674.545	0.000010353290338	7.482174e-01	33707	270	3	997	80919601.04	28.96	83	0.99660
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	40	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	40	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2346452927	259212	4202.535	0.000001791016096	4056983	502496	90927	9052	1257301101610.21	14.60	16607	0.09052
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259225100	259225	4140.298	0.000015971824283	3.840830e-01	0	0	0	1000	0.00	14.86	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1052150141	259202	3161.000	0.000003004324074	4057622	3578501	94965	4059	6807217999.80	40.00	6322	0.04059
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85694.329	0.000330608540007	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2036993000	259229	6075.000	0.000002982337200	4049900	427	92127	7858	1279172244805.97	20.34	12018	0.07858
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+253082265	259202	3161.000	0.000012490009927	0	39107	235	14	976	99806824.42	40.00	247	0.97639
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1273973912	259225	2627.246	0.000002062244826	4052576	1244888	95070	4915	914941585120.07	29.32	8548	0.04915
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258917638	259209	6112.000	0.000023605962320	1	25081	26	1	999	48222251.56	20.20	39	0.99888
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258360535	259216	2615.098	0.000010121894719	7.357169e-01	34903	398	3	997	76116205.91	29.13	74	0.99670
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	41	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	41	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2328182473	259201	4151.098	0.000001782978055	4141525	482482	91000	8982	1322256057701.75	14.71	16493	0.08982
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259209200	259209	4135.902	0.000015955845114	3.728388e-01	0	0	0	1000	0.00	14.76	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1045030794	259224	3086.000	0.000002953023028	4149565	3665286	94778	4031	7047029261.52	41.00	6172	0.04031
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85880.136	0.000331325383567	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2007800829	259207	5979.500	0.000002978134043	4131691	559	92238	7746	1336791464349.23	20.67	11820	0.07746
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+252761683	259224	3086.000	0.000012209129036	0	40556	2	13	975	86748216.18	41.00	264	0.97507
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1262515857	259233	2560.775	0.000002028310957	4144729	1225550	95115	4870	978088979412.34	29.42	8522	0.04870
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258806747	259225	5986.000	0.000023129226995	1	26353	440	2	998	53226869.29	20.65	45	0.99838
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258521491	259233	2567.455	0.000009931300688	7.353202e-01	31825	205	3	997	52974713.62	29.78	71	0.99725
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	42	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	42	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2301329229	259206	4085.733	0.000001775379591	4233914	224993	91103	8878	1367839617633.64	14.85	16353	0.08878
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259202500	259202	4061.092	0.000015667641817	3.726652e-01	0	0	0	1000	0.00	15.09	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1015178608	259204	3014.000	0.000002968935688	4237649	3757220	94688	3917	6666406509.22	42.00	6028	0.03917
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	84979.285	0.000327849902285	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1979558635	259202	5884.500	0.000002972632332	4235152	1981	92347	7637	1409013888708.06	21.02	11652	0.07637
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+251408780	259204	3014.000	0.000011988443676	0	40568	32	16	970	93323942.59	42.00	289	0.96993
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1211554913	259218	2487.274	0.000002052960480	4229883	1311158	95310	4674	964395080101.87	30.81	8148	0.04674
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258778187	259226	5904.500	0.000022816838113	1	34726	967	2	998	61730617.13	20.95	48	0.99827
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258156300	259226	2497.149	0.000009673013943	7.435630e-01	37936	460	4	996	80757681.96	30.78	80	0.99587
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	43	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	43	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2264811130	259218	4009.488	0.000001770340959	4326657	502496	91240	8737	1430148647933.86	15.12	16077	0.08737
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259210600	259211	4024.450	0.000015525793010	3.643503e-01	0	0	0	1000	0.00	15.08	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-983503173	259204	2945.500	0.000002994906455	4327875	3851000	94615	3794	6732717466.04	43.00	5891	0.03794
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	84551.660	0.000326200126876	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1928517674	259200	5767.000	0.000002990379647	4320905	421	92544	7440	1479570000282.01	21.47	11433	0.07440
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+250955052	259204	2945.500	0.000011737161594	0	38936	9	16	968	107859959.07	43.00	293	0.96818
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1203910831	259221	2449.865	0.000002034921964	4327148	1313603	95339	4644	1049909691726.82	31.11	8071	0.04644
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258854580	259225	5806.500	0.000022431513435	1	35992	120	1	999	49993215.06	21.32	44	0.99857
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258236981	259211	2447.602	0.000009478125278	7.383497e-01	35150	269	4	996	98460167.36	31.23	72	0.99624
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	44	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	44	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2250065739	259214	3993.764	0.000001774954311	4417932	347489	91293	8680	1519400028155.97	15.23	15973	0.08680
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259207500	259207	4013.445	0.000015483520805	3.573177e-01	0	0	0	1000	0.00	15.11	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-962840790	259200	2880.000	0.000002991148723	4416724	3934794	94508	3715	6757893673.84	44.00	5760	0.03715
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	84766.896	0.000327030507890	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1876769950	259219	5621.500	0.000002995305845	4404447	471	92743	7240	1541512238268.44	22.06	11124	0.07240
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+250532692	259200	2880.000	0.000011495505737	0	43382	25	16	967	105752878.32	44.00	265	0.96656
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1152182096	259232	2373.366	0.000002059887834	4413639	1407991	95539	4445	1030087801479.14	32.56	7724	0.04445
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258728697	259213	5648.000	0.000021829816606	1	35408	63	2	998	68814119.35	21.95	53	0.99813
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258381426	259220	2377.011	0.000009199620552	7.484168e-01	37529	287	3	997	75787858.39	32.33	67	0.99677
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	45	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	45	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2007994409	259202	3512.492	0.000001749253767	4596017	592496	92233	7747	1674631978976.31	17.27	14182	0.07747
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259229900	259230	3534.004	0.000013632700882	3.899726e-01	0	0	0	1000	0.00	17.19	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-951856806	259210	2817.500	0.000002960004050	4597649	4136691	96328	3672	6943478632.81	45.00	5635	0.03672
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85374.774	0.000329375700180	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1823671425	259203	5429.500	0.000002977235880	4577082	1006	92947	7036	1645109656032.81	22.87	10738	0.07036
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+254438526	259210	2817.500	0.000011073401658	0	44776	39	18	982	110855079.72	45.00	307	0.98159
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1135655449	259240	2294.344	0.000002020282100	4589912	1419508	95602	4381	1194098283858.23	32.93	7639	0.04381
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258473555	259210	5417.500	0.000020959591031	1	37913	74	3	997	58884569.17	22.92	72	0.99716
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258110754	259211	2291.644	0.000008878528712	7.346078e-01	37413	5	4	996	85297789.44	33.06	85	0.99576
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	46	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	46	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-2003644082	259218	3510.007	0.000001751811387	4685807	526148	92243	7730	1706931654264.28	17.24	14213	0.07730
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259204700	259205	3496.096	0.000013487781841	3.865065e-01	0	0	0	1000	0.00	17.39	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-925537961	259205	2757.500	0.000002979348353	4685329	4204907	96217	3571	6765086948.93	46.00	5515	0.03571
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85474.403	0.000329760068490	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1767781116	259230	5280.500	0.000002987077954	4681629	747	93163	6819	1744036975779.97	23.55	10464	0.06819
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+253752461	259205	2757.500	0.000010866889684	0	44210	57	19	979	125353112.44	46.00	282	0.97896
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1115953548	259215	2250.231	0.000002016419990	4684976	1032496	95677	4305	1257590995325.41	33.38	7539	0.04305
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258682800	259210	5299.500	0.000020486480006	1	37539	32	2	998	64029490.76	23.46	65	0.99797
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258077067	259213	2266.944	0.000008783981967	7.339127e-01	44662	356	4	996	114603124.28	33.69	83	0.99562
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	47	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	47	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1968475380	259241	3466.516	0.000001761015703	4775525	592496	92372	7593	1811915454137.10	17.46	14039	0.07593
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259211500	259211	3474.978	0.000013405954713	3.772586e-01	0	0	0	1000	0.00	17.31	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-909544084	259200	2700.000	0.000002968520214	4775282	4307234	96074	3509	7058890911.13	47.00	5400	0.03509
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85853.740	0.000331223546703	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1745883737	259227	5202.500	0.000002979866236	4775930	1200	93247	6735	1787779370221.79	23.91	10316	0.06735
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+253424272	259200	2700.000	0.000010654070261	0	46575	80	18	978	130459115.53	47.00	296	0.97772
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1074866731	259216	2182.742	0.000002030709883	4776993	1472496	95835	4147	1240464319163.82	34.88	7223	0.04147
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258661393	259201	5187.000	0.000020053243897	1	34370	7	2	998	53894316.82	23.99	55	0.99792
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+257882813	259224	2196.070	0.000008515766616	7.394812e-01	39385	6	5	995	121663211.76	34.61	90	0.99483
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	48	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	48	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1985092627	259203	3459.551	0.000001742765306	4863504	269986	92305	7658	1826309661912.26	17.40	14082	0.07658
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259222200	259222	3412.217	0.000013163290569	3.773829e-01	0	0	0	1000	0.00	17.66	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-894927934	259210	2645.000	0.000002955545245	4867156	4391844	95935	3453	6843697327.37	48.00	5290	0.03453
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	84809.279	0.000327194021089	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1717742183	259225	5135.000	0.000002989389241	4864530	376	93356	6626	1865317141972.18	24.24	10171	0.06626
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+252436342	259210	2645.000	0.000010477889128	0	45575	231	20	974	128627152.32	48.00	310	0.97387
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1068865801	259225	2158.792	0.000002019703681	4859056	1483153	95858	4123	1332898538958.68	34.86	7228	0.04123
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258506217	259202	5116.500	0.000019792560717	1	30348	255	3	997	66758750.51	24.33	60	0.99732
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+257732376	259217	2171.634	0.000008425927325	7.309826e-01	42890	160	6	994	137600469.09	34.87	95	0.99427
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	49	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	49	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1961056465	259223	3403.971	0.000001735784366	4954165	353167	92397	7565	1915239909120.53	17.64	13907	0.07565
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259207700	259208	3405.222	0.000013137038535	3.725519e-01	0	0	0	1000	0.00	17.77	0	1.00000
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-866423995	259200	2592.000	0.000002991606897	4956013	4476719	95857	3343	6620368192.22	49.00	5184	0.03343
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85673.911	0.000330529766870	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1688031028	259210	5014.000	0.000002970324549	4943193	373	93469	6512	1934882905511.93	24.85	9936	0.06512
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+251963847	259200	2592.000	0.000010287190119	0	49133	8	20	972	140430644.22	49.00	312	0.97208
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1035083831	259217	2120.299	0.000002048432408	4951897	1618615	95989	3993	1350013436590.80	36.03	6998	0.03993
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258595099	259225	5067.500	0.000019596272386	1	38333	59	2	998	83340587.93	24.58	54	0.99757
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258082776	259229	2121.692	0.000008220973498	7.450228e-01	45935	175	4	996	113364927.94	36.21	76	0.99558
 M	Dm:S	t:S	T:S	c:bps	Ep:J(10^-6)	P:w	Eninit
-5	50	9.000000e-01	1	100000	0.010	1.000000e-01	200000
+5	50	9.000000e-01	1	1000	0.010	1.000000e-01	200000
 Case 1
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1947437397	259213	3391.450	0.000001741493697	5046324	592496	92450	7513	2018842237736.51	17.82	13771	0.07513
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259242232	259245	3411.474	0.000013159408089	3.626229e-01	2668	2668	0	1000	0.00	17.62	1	0.99999
 Case 2
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-849681686	259233	2541.500	0.000002991120134	5047752	4571165	95742	3278	6762279236.84	50.00	5083	0.03278
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+259201800	259202	85367.112	0.000329346137086	1	0	0	0	1000	0.00	0.90	0	1.00000
 Case 3
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1673082507	259222	4972.500	0.000002972059047	5034664	199	93526	6454	2021222468387.14	25.07	9849	0.06454
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+251655134	259233	2541.500	0.000010099138283	0	48649	9	19	971	138425656.75	50.00	316	0.97077
 Case 4
-TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
-1033060082	259222	2076.658	0.000002010200974	5044453	1538953	95996	3985	1438923052042.30	36.45	6920	0.03985
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+258671160	259218	4939.000	0.000019093740498	1	28807	118	2	998	53292456.05	25.24	57	0.99789
+Case 5
+TransData:bit	Duratiaon:S	UseEn:J	EnEf:J/bit	DeEf	MaxLossData:bit	MinLossData	AveLossData	AveTransData	fcLossData	AveScheduler	TurnLossData	TranDataRatio
+257529504	259200	2091.686	0.000008122122776	7.350799e-01	46640	46	6	994	148312732.51	36.39	97	0.99355

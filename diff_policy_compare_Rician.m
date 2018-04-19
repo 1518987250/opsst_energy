@@ -162,7 +162,7 @@ while(Duration(2)<TotalTime)
     end        
     Duration(2)=Duration(2)+Dm+T;%最大延迟时间加传输时间就是本轮持续时间
     RemainEn(2)=RemainEn(2)-M*((P*T));%本轮的能耗是传输能耗   
-    round(2)=it*Z;%返回总侦测次数    
+    round(2)=it*1;%返回总侦测次数    
     it=it+1;
 end
 AveTransData(2)=TransData(2)/Duration(2);%平均数据传输
@@ -232,7 +232,7 @@ while(Duration(3)<TotalTime)
     end      
     Duration(3)=Duration(3)+(TransT)*t+T;%等待时间加传输时间就是本轮持续时间
     RemainEn(3)=RemainEn(3)-M*((TransP*T));%本轮的能耗是传输能耗 
-    round(3)=it*Z;%返回总侦测次数
+    round(3)=it*1;%返回总侦测次数
     it=it+1;
 end
 AveTransData(3)=TransData(3)/Duration(3);%平均数据传输

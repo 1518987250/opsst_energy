@@ -1,6 +1,6 @@
 function [ ]=draw_diff_argument_test_data_diff()
    
-	case_number=4;%4种策略比较
+	case_number=5;%5种策略比较
     Dm_number=20;%100种速率
     fi=fopen('test_compare_diff_M_Rayleigh.txt','r');
     for i=1:Dm_number
@@ -10,9 +10,9 @@ function [ ]=draw_diff_argument_test_data_diff()
            EnEf(i,j)=0;
            fgets(fi)%读出情况说明
            fgets(fi)%读出参数说明
-           result_number=14;%12个结果
-           result_value=fscanf(fi,'%d%d%d%d%f%f%d%d%d%d%f%f%d%f',[1,result_number]);%读取12个结果
-           EnEf(i,j)=EnEf(i,j)+result_value(1)/result_value(2);%单位时间的平均能耗
+           result_number=13;%12个结果
+           result_value=fscanf(fi,'%d%d%f%f%f%d%d%d%d%f%f%d%f',[1,result_number]);%读取13个结果
+           EnEf(i,j)=EnEf(i,j)+result_value(5);%单位时间的平均能耗
            fgets(fi)%读出回车
        end        
     end
@@ -23,20 +23,37 @@ function [ ]=draw_diff_argument_test_data_diff()
         y2(i)=EnEf(i,2);
         y3(i)=EnEf(i,3);
         y4(i)=EnEf(i,4);
+        y5(i)=EnEf(i,5);
     end
     figure();
-    plotyy(x,y1,x,y3);
-    xlabel('速率(bps)');
-    ylabel('能耗效率/(×10^{-5}J/bit)');
-    legend('OTSSP','RTS');
-%     figure(2);
-%     plot(x,y2,'b.-');
-%     figure(3);
-%     plot(x,y3,'g.-');
-%     figure(4);
-%     plot(x,y4,'k.-');
-%  set(gca,'xtick',100:200:2800)
-%  set(gca,'ytick',[12000:1000:15000,18000:1000:21000])
- hold on
+    hold on;
+    
+    plot(x,y1);
+    set(gca,'position',[0.15 0.2 0.7 0.7]);
+    xlabel('最大应用数目M');
+    ylabel('侦测效率','fontsize',20);
+    set(gca,'fontsize',20);
+    legend('OTSSP');
+    set(get(gca,'Children'),'LineWidth',2);
+     
+%     [AX]=plotyy(x,y1,x,y4,'plot');
+%     set(gca,'position',[0.15 0.2 0.7 0.7]);
+%     xlabel('速率c(×10^{2}bps)');
+%     ylabel('平均能耗(J/s)','fontsize',22,'color','k');
+%     set(gca,'fontsize',22);
+%     legend('TSTB','RTS');
+%     set(AX(2),'Fontsize',22);
+%     set(findobj(get(gca,'Children'),'LineWidth',0.5),'LineWidth',2);
+%     set(findobj(get(AX(2),'Children'),'LineWidth',0.5),'LineWidth',2);
+
+%     [AX]=plotyy(x,[y1;y4],x,y2,'plot');
+%     set(gca,'position',[0.15 0.2 0.7 0.7]);
+%     xlabel('最大应用数目M');
+%     ylabel('能耗效率(J/bit)','fontsize',22,'color','k');
+%     set(gca,'fontsize',22);
+%     legend('OTSSP','RTS','TSTB');
+%     set(AX(2),'Fontsize',22);
+%     set(findobj(get(gca,'Children'),'LineWidth',0.5),'LineWidth',2);
+%     set(findobj(get(AX(2),'Children'),'LineWidth',0.5),'LineWidth',2);
  end
  
