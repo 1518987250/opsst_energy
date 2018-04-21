@@ -1,8 +1,8 @@
 function [ ]=draw_diff_argument_test_data_diff()
    
 	case_number=5;%5种策略比较
-    Dm_number=50;%100种速率
-    fi=fopen('test_compare_diff_c_Rician.txt','r');
+    Dm_number=20;%100种速率
+    fi=fopen('test_compare_diff_M_Rician.txt','r');
     for i=1:Dm_number
        fgets(fi)%读出参数说明
        fgets(fi);%读出回车
@@ -17,7 +17,7 @@ function [ ]=draw_diff_argument_test_data_diff()
        end        
     end
     
-    x=[1:1:50];
+    x=[1:1:20];
     for i=1:Dm_number
         y1(i)=EnEf(i,1);
         y2(i)=EnEf(i,2);
@@ -28,32 +28,32 @@ function [ ]=draw_diff_argument_test_data_diff()
     figure();
     hold on;
  
-    plot(x,y1);
-    set(gca,'position',[0.15 0.2 0.7 0.7]);
-    xlabel('速率c(×10^{2}bps)');
-    ylabel('平均能耗(J/s)','fontsize',20);
-    set(gca,'fontsize',20);
-    legend('OTSSP');
-    set(get(gca,'Children'),'LineWidth',2);
+%     plot(x,y1);
+%     set(gca,'position',[0.15 0.25 0.7 0.7]);
+%     xlabel('速率c(×10^{2}bps)');
+%     ylabel('平均能耗(J/s)','fontsize',20);
+%     set(gca,'fontsize',20);
+%     legend('OTSSP');
+%     set(get(gca,'Children'),'LineWidth',2);
      
 %     [AX]=plotyy(x,y2,x,y4,'plot');
-%     set(gca,'position',[0.15 0.2 0.7 0.7]);
+%     set(gca,'position',[0.15 0.25 0.7 0.7]);
 %     xlabel('速率c(×10^{2}bps)');
-%     ylabel('平均能耗(J/s)','fontsize',22,'color','k');
+%     ylabel('最大传输延时Dm(s)','fontsize',22,'color','k');
 %     set(gca,'fontsize',22);
 %     legend('TSTB','RTS');
 %     set(AX(2),'Fontsize',22);
 %     set(findobj(get(gca,'Children'),'LineWidth',0.5),'LineWidth',2);
 %     set(findobj(get(AX(2),'Children'),'LineWidth',0.5),'LineWidth',2);
 
-%     [AX]=plotyy(x,[y1;y4],x,y2,'plot');
-%     set(gca,'position',[0.15 0.2 0.7 0.7]);
-%     xlabel('速率c(×10^{2}bps)');
-%     ylabel('能耗效率(J/bit)','fontsize',22,'color','k');
-%     set(gca,'fontsize',22);
-%     legend('OTSSP','RTS','TSTB');
-%     set(AX(2),'Fontsize',22);
-%     set(findobj(get(gca,'Children'),'LineWidth',0.5),'LineWidth',2);
-%     set(findobj(get(AX(2),'Children'),'LineWidth',0.5),'LineWidth',2);
+    [AX]=plotyy(x,[y1;y4],x,y2,'plot');
+    set(gca,'position',[0.15 0.25 0.7 0.7]);
+    xlabel('最大应用数目M');
+    ylabel('能耗效率{\elta}','fontsize',22,'color','k');
+    set(gca,'fontsize',22);
+    legend('OTSSP','RTS','TSTB');
+    set(AX(2),'Fontsize',22);
+    set(findobj(get(gca,'Children'),'LineWidth',0.5),'LineWidth',2);
+    set(findobj(get(AX(2),'Children'),'LineWidth',0.5),'LineWidth',2);
  end
  
