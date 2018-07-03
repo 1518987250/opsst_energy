@@ -197,7 +197,7 @@ if (itLossData>=1)
     end
     fcLossData(2)=fcLossData(2)/itLossData;
 end
-%第二种情况:放过k个后见优则录的规则进行传输,结束
+%第二种情况:第一次侦测数据后传输,结束
 %第三种情况:确定传输策略,即在最后的期限传输
 it=1;%模拟的轮次
 itLossData=0;%丢失数据的轮次

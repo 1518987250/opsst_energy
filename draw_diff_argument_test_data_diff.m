@@ -1,8 +1,8 @@
 function [ ]=draw_diff_argument_test_data_diff()
    
 	case_number=5;%5种策略比较
-    Dm_number=30;%100种速率
-    fi=fopen('test_compare_diff_Dm_Rayleigh.txt','r');
+    Dm_number=50;%100种速率
+    fi=fopen('test_compare_diff_c_Rayleigh.txt','r');
     for i=1:Dm_number
        fgets(fi)%读出参数说明
        fgets(fi);%读出回车
@@ -17,7 +17,7 @@ function [ ]=draw_diff_argument_test_data_diff()
        end        
     end
     
-    x=[1:1:30];
+    x=[1:1:50];
     for i=1:Dm_number
         y1(i)=EnEf(i,1);
         y2(i)=EnEf(i,2);
